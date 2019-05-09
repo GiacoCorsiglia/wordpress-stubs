@@ -38,7 +38,8 @@ If your editor has trouble parsing all of WordPress, you may find the stubs usef
 composer require --dev szepeviktor/phpstan-wordpress
 ```
 
-This package depends on PHPStan and WordPress Stubs.
+
+The package [`szepeviktor/phpstan-wordpress`](https://github.com/szepeviktor/phpstan-wordpress) depends on [`phpstan/phpstan`](http://github.com/phpstan/phpstan) and `giacocorsiglia/wordpress-stubs`.
 
 ## Versioning
 
