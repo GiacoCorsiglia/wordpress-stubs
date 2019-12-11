@@ -13,7 +13,7 @@ FILE="wordpress-stubs.php"
 
 # Shim the global $wpdb declaration, since it's actually set up inside a
 # function call.
-echo $'\n/**\n * WordPress database abstraction object.\n * @var wpdb\n */\n$wpdb = null;' >> $FILE
+echo $'\nnamespace {\n\t/**\n\t * WordPress database abstraction object.\n\t * @var wpdb\n\t */\n\t$wpdb = \\null;\n}' >> $FILE
 
 # Trim tailing whitespace.  Not using sed because it seemed to struggle with
 # some characters in the file.
