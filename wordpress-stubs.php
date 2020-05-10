@@ -84081,7 +84081,7 @@ function wp_remote_retrieve_header($response, $header)
  *
  * @since 2.7.0
  *
- * @param array $response HTTP response.
+ * @param array|WP_Error $response HTTP response.
  * @return int|string The response code as an integer. Empty string on incorrect parameter given.
  */
 function wp_remote_retrieve_response_code($response)
