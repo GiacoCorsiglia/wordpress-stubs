@@ -1,3 +1,9 @@
+# ‼️ This project is not maintained ‼️
+
+You should use the fork at [php-stubs/wordpress-stubs](https://github.com/php-stubs/wordpress-stubs), which is thanks to [@szepeviktor](https://github.com/szepeviktor).
+
+---
+
 # WordPress Stubs
 
 [![Build Status](https://travis-ci.com/GiacoCorsiglia/wordpress-stubs.svg?branch=master)](https://travis-ci.com/GiacoCorsiglia/wordpress-stubs)
