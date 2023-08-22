@@ -38,6 +38,15 @@ Furthermore, ensure WordPress core code is _not_ included under `<projectFiles>`
 
 If your editor has trouble parsing all of WordPress, you may find the stubs useful for enabling code completion and related features.  For example, [here](https://github.com/bmewburn/vscode-intelephense/issues/113) are instructions for usage with VSCode's [Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client) extension.  (In my experience, however, Intelephense parses WordPress core just fine.)
 
+## Usage with PHPStan
+
+```bash
+composer require --dev szepeviktor/phpstan-wordpress
+```
+
+
+The package [`szepeviktor/phpstan-wordpress`](https://github.com/szepeviktor/phpstan-wordpress) depends on [`phpstan/phpstan`](http://github.com/phpstan/phpstan) and `giacocorsiglia/wordpress-stubs`.
+
 ## Versioning
 
 This package is versioned to match the WordPress version from which the stubs are generated.  If any fixes to stubs are required, subsequent releases will be versioned as `WP_VERSION.X`.
